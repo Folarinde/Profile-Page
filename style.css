@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 5px;
+    padding: 40px 4px;
+}
+
+section {
+    border: 1px solid #000000;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+    grid-column: 1/-1;
+}
+
+#avatar {
+    width: 282px;
+    height: 282px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#about {
+    border-radius: 20px;
+    justify-self: center;
+    margin: auto;
+    max-width: 92%;
+}
